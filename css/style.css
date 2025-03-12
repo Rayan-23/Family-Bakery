@@ -1,0 +1,163 @@
+*{
+    text-transform: capitalize;
+}
+
+body {
+  overflow-x: hidden;
+}
+.background-img {
+  background: url(../images/drew-coffman-1872.jpg) center center/cover fixed;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.background-img a img {
+  width: 180px;
+}
+
+.background-img ul li a {
+  color: wheat !important;
+}
+.header {
+  height: 80vh;
+  color: wheat;
+}
+.header btn {
+  color: wheat !important;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 900;
+}
+.nav-link {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#about div {
+    width: 100%
+}
+#about ul li{
+    list-style: none;
+}
+
+#our-offer {
+  
+
+  background-color:rgb(53, 47, 47);
+  
+}
+#our-offer section img{
+  max-width: 50%;
+  
+}
+.bg-transparent-card{
+  background-color: rgba(0, 0, 0, 0.548);
+  transition: 1s;
+}
+.bg-transparent-card:hover{
+  transform: scale(1.1);
+}
+.salary{
+  color: red;
+}
+.offer-title{
+  color: black;
+}
+
+#blog ul{
+  list-style: none;
+}
+#contact{
+  background-color: #1F1A11;
+  color: wheat;
+}
+#contact p{
+  transition: 1s;
+}
+#contact p:hover{
+  
+  transform: scale(1.1);
+  
+}
+
+
+
+
+.menu{
+  background-color:rgb(53, 47, 47);
+  color: wheat ;
+}
+
+
+
+
+.menu-content ul button,
+.navbar ul li .underline {
+  background-color: transparent !important;
+  border: none;
+  outline: none;
+  position: relative;
+}
+.menu ul li button{
+  color: wheat !important;
+  font-weight: 700;
+
+}
+.menu-content ul button:after,
+.navbar ul li .underline:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: wheat;
+  transition: width 0.3s ease;
+}
+.menu-content ul button:focus:after,
+.menu-content ul button:hover:after,
+.menu-content ul button:active:after,
+.navbar ul li .underline:focus:after,
+.navbar ul li .underline:hover:after,
+.navbar ul li .underline:active:after {
+  width: 100%;
+}
+
+
+.menu img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.salery-red{
+  color: red;
+}
+
+
+
+
+
+
+
+
+
